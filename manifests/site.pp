@@ -8,7 +8,7 @@ node default {
       content => 'This a Readme file',
       owner   => root,
       group   => root,
-      mode    => "677"
+      mode    => "644"
       
   }
 }
