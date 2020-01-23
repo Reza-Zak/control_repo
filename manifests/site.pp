@@ -4,10 +4,11 @@ node default {
      content => 'This is a Readme',
   }
   file { '/tmp/README.txt':
-      ensure => present,
+      ensure  => present,
       content => 'This a Readme file',
-      owner => root,
-      group => root,
+      owner   => root,
+      group   => root,
+      mode    => "677"
       
   }
 }
