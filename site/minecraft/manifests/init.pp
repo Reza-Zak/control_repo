@@ -15,7 +15,7 @@ class minecraft (
   }
   file {"${install_dir}/eula.txt":
     ensure => file,
-    content => 'enable=true',
+    content => 'eula=true',
   }
   file {'/etc/systemd/system/minecraft.service':
     ensure  => file,
