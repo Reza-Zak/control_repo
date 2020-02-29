@@ -1,7 +1,0 @@
-mod 'puppet-nginx', '1.0.0'
-mod 'puppetlabs-stdlib'
-mod 'puppetlabs-concat'
-mod 'puppetlabs-translate', '2.1.0'
-mod 'pltraining-dockeragent', '0.0.16'
-mod 'garethr-docker', '5.3.0'
-mod 'stahnma-epel', '1.3.1'
