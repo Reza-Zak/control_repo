@@ -8,9 +8,6 @@ node 'pag.lab.local' {
         }
 }
 node 'pms.lab.local' {
-        package { 'openldap-clients':
-                ensure => installed,
-        }
 }
 node 'default' {
         include role::base
