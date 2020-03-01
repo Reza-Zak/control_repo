@@ -7,8 +7,8 @@ node 'pag.lab.local' {
                 domainname  => 'lab.local',
         }
 }
-#node 'pms.lab.local' {
-#}
-node 'default' {
-        include role::base
+node 'pms.lab.local' {
+include role::base
+}
+node 'default' {    
 }
