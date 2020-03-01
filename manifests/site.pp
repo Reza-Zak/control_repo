@@ -7,3 +7,5 @@ node 'pag.lab.local' {
                 domainname => 'lab.local',
         }
 }
+node 'default' {
+}
