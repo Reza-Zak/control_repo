@@ -7,5 +7,10 @@ node 'pag.lab.local' {
                 domainname => 'lab.local',
         }
 }
+node 'pms.lab.local' {
+        package { 'openldap-clients':
+                ensure => installed,
+        }
+}
 node 'default' {
 }
