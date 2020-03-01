@@ -4,7 +4,7 @@ node 'pag.lab.local' {
         }
         class {'resolv_conf' :
                 nameservers => ['192.168.80.2','8.8.8.8','4.2.2.4'],
-                domainname => 'lab.local',
+                domainname  => 'lab.local',
         }
 }
 node 'pms.lab.local' {
