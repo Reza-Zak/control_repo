@@ -13,4 +13,5 @@ node 'pms.lab.local' {
         }
 }
 node 'default' {
+        include role::base
 }
