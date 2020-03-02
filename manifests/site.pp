@@ -8,7 +8,7 @@ node 'pag.lab.local' {
         }
 }
 node 'pms.lab.local' {
-  include role::master_server
+  include role::base
 }
 node default {    
 }
