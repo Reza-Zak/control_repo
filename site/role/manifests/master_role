@@ -1,3 +1,0 @@
-class master_role::base {
-  include profile::base
-}
