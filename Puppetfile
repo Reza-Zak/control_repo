@@ -1,3 +1,3 @@
 mod 'puppetlabs-stdlib'
-mod 'saz-resolv_conf',
-mod 'saz-sudo',
+mod 'saz-resolv_conf'
+mod 'saz-sudo'
