@@ -1,8 +1,5 @@
 class profile::base {
-  package { 'vim':
-    ensure => installed,
-    }
-  package { 'openldap-clients':
+  package { ['vim','openldap-clients']:
     ensure => installed,
     }
   class {'resolv_conf':
